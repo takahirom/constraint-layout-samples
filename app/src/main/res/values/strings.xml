@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">constraint-layout-samples</string>
+    <string name="title_activity_barrier">BarrierActivity</string>
+    <string name="title_activity_place_holder">PlaceHolderActivity</string>
+    <string name="title_activity_group">GroupActivity</string>
+    <string name="title_activity_percent_dimension">PercentDimensionActivity</string>
+    <string name="title_activity_google_io">GoogleIOActivity</string>
+    <string name="title_activity_chain">ChainActivity</string>
+</resources>

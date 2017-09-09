@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
                     Item("Group", GroupActivity::class.java),
                     Item("PlaceHolder", PlaceHolderActivity::class.java),
                     Item("PercentDimension", PercentDimensionActivity::class.java),
-                    Item("Google I/O", MainActivity::class.java)
+                    Item("Animation", AnimationActivity::class.java)
             ))
         }
 

@@ -26,7 +26,8 @@
             android:name=".ChainActivity"
             android:label="@string/title_activity_chain"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".AnimationActivity"></activity>
+        <activity android:name=".AnimationActivity" />
+        <activity android:name=".GuideLineActivity"></activity>
     </application>
 
 </manifest>

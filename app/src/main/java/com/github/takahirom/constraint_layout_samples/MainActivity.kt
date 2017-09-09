@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
             adapter = Adapter(listOf(
                     Item("Bias", BiasActivity::class.java),
                     Item("Chain", ChainActivity::class.java),
+                    Item("GuideLine", GuideLineActivity::class.java),
                     Item("Barrier", BarrierActivity::class.java),
                     Item("Group", GroupActivity::class.java),
                     Item("PlaceHolder", PlaceHolderActivity::class.java),

@@ -21,14 +21,10 @@
         <activity android:name=".PlaceHolderActivity" />
         <activity android:name=".GroupActivity" />
         <activity android:name=".PercentDimensionActivity" />
-        <activity android:name=".GoogleIOActivity" />
-        <activity
-            android:name=".ChainActivity"
-            android:label="@string/title_activity_chain"
-            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ChainActivity" />
         <activity android:name=".AnimationActivity" />
         <activity android:name=".GuideLineActivity" />
-        <activity android:name=".ConstraintHelperActivity"></activity>
+        <activity android:name=".ConstraintHelperActivity" />
     </application>
 
 </manifest>

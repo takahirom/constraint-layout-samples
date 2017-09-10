@@ -13,10 +13,7 @@ class ChainActivity : AppCompatActivity() {
         val activityChainBinding = DataBindingUtil.setContentView<ActivityChainBinding>(this, R.layout.activity_chain)
         activityChainBinding.apply {
             switchButton.setOnCheckedChangeListener { _, b ->
-                val visibility = if (b) View.GONE else View.VISIBLE
-                button4.visibility = visibility
-                button7.visibility = visibility
-                button10.visibility = visibility
+                group.visibility = if (b) View.GONE else View.VISIBLE
             }
         }
     }

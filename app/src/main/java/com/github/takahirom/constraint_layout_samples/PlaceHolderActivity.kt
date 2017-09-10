@@ -14,14 +14,16 @@ class PlaceHolderActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val placeHolderBinding = DataBindingUtil.setContentView<ActivityPlaceHolderBinding>(this, R.layout.activity_place_holder)
-        val onClickListener: (View) -> Unit = { view ->
-            TransitionManager.beginDelayedTransition(placeHolderBinding.root as ViewGroup)
-            placeHolderBinding.placeholder.setContentId(view.id)
+        placeHolderBinding.apply {
+            val onClickListener: (View) -> Unit = { view ->
+                TransitionManager.beginDelayedTransition(root as ViewGroup)
+                placeholder.setContentId(view.id)
+            }
+            imageA.setOnClickListener(onClickListener)
+            imageB.setOnClickListener(onClickListener)
+            imageC.setOnClickListener(onClickListener)
+            imageD.setOnClickListener(onClickListener)
         }
-        placeHolderBinding.imageA.setOnClickListener(onClickListener)
-        placeHolderBinding.imageB.setOnClickListener(onClickListener)
-        placeHolderBinding.imageC.setOnClickListener(onClickListener)
-        placeHolderBinding.imageD.setOnClickListener(onClickListener)
 
     }
 

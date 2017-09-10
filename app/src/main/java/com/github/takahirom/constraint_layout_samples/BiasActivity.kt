@@ -12,7 +12,7 @@ class BiasActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val activityBiasBinding = DataBindingUtil.setContentView<ActivityBiasBinding>(this, R.layout.activity_bias)
-        activityBiasBinding.seekBar.setOnSeekBarChangeListener(object: SeekBar.OnSeekBarChangeListener {
+        activityBiasBinding.seekBar.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
             override fun onProgressChanged(seekBar: SeekBar?, progress: Int, p2: Boolean) {
                 val constraintSet = ConstraintSet()
                 constraintSet.clone(activityBiasBinding.constraintLayout)

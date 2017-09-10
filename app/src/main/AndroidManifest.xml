@@ -27,7 +27,8 @@
             android:label="@string/title_activity_chain"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".AnimationActivity" />
-        <activity android:name=".GuideLineActivity"></activity>
+        <activity android:name=".GuideLineActivity" />
+        <activity android:name=".ConstraintHelperActivity"></activity>
     </application>
 
 </manifest>

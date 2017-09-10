@@ -17,12 +17,13 @@ class AnimationActivity : AppCompatActivity() {
         val binding = DataBindingUtil.setContentView<ActivityAnimationBinding>(this, R.layout.activity_animation)
 
         binding.apply {
+            val context = this@AnimationActivity
 
             val originalConstraintSet = ConstraintSet()
             originalConstraintSet.clone(constraintLayout)
 
             val bigImageConstraintSet = ConstraintSet()
-            bigImageConstraintSet.clone(this@AnimationActivity, R.layout.activity_animation_big_image)
+            bigImageConstraintSet.clone(context, R.layout.big_image)
 
             constraintLayout.setOnClickListener {
                 isBigImage = !isBigImage

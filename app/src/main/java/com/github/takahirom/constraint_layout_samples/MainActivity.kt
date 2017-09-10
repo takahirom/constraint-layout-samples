@@ -29,7 +29,8 @@ class MainActivity : AppCompatActivity() {
                     Item("Group", GroupActivity::class.java),
                     Item("PlaceHolder", PlaceHolderActivity::class.java),
                     Item("PercentDimension", PercentDimensionActivity::class.java),
-                    Item("Animation", AnimationActivity::class.java)
+                    Item("Animation", AnimationActivity::class.java),
+                    Item("Advanced ConstraintHelper", ConstraintHelperActivity::class.java)
             ))
         }
 
